@@ -11,22 +11,19 @@ h1, h2, p{
     margin-bottom: 1rem;
 }
 
+
 h1{
     color: $accent;
     line-height: 1;
     font-size: 3.125rem;
-
-    span{
-        @include sans-serif($fs: 5.6rem, $color: $accent);
-        display: block;
-
-    }
 }
+
 
 h2{
     @include sans-serif($fs: 2rem)
 }
 
-p{
-    
+
+img{
+    max-width: 100%;
 }
